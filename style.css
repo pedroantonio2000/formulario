@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to left, #0388fc, #0328fc);
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.inp1 {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    
+} 
+
+
+.inp2 {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#esquecer-senha {
+    margin-left: 20px;
+    cursor: pointer;
+    color: #0388fc;
+}
+
+.inp3 {
+    padding: 10px 20px;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 18px;
+    transition-duration: 200ms;
+}
+
+.inp3:hover {
+    background-color: dodgerblue;
+}
+
+.conta {
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;
+    
+}
+
+#cadastrar {
+    color: #0388fc;
+    cursor: pointer;
+}
