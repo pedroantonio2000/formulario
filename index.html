@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário</title>
-    <link rel="stylesheet" href="./style.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <form name="nome" class="form">
-        <div class="container">
-            <h1>Login</h1>
-            <div class="container-form">
-                <div>
-                    <p>Seu e-mail</p>
-                    <input class="inp1" type="text" id="idemail" name="email" placeholder="contato@gmail.com" required="required">
-                </div>
-                <div>
-                    <p>Sua senha</p>
-                    <input class="inp2" type="text" id="idsenha" name="senha" placeholder="1234" >
-                </div>
-            </div>
+      <div class="container">
+        <h1>Login</h1>
+        <div class="container-form">
+          <div class="cont">
+            <label>Seu e-mail</label>
+            <input
+              class="inp1"
+              type="text"
+              id="idemail"
+              name="email"
+              placeholder="contato@gmail.com"
+              required="required"
+            />
+          </div>
+          <div class="cont">
+            <label>Sua senha</label>
+            <input
+              class="inp2"
+              type="text"
+              id="idsenha"
+              name="senha"
+              placeholder="1234"
+            />
             <p id="esquecer-senha">Esqueceu sua senha?</p>
-            <input class="inp3" type="submit" value="Enviar">
-            <div class="conta">
-                <p>Ainda não tem conta?</p>
-                <p id="cadastrar">Cadastre-se</p>
-            </div>
+          </div>
         </div>
+        <input class="inp3" type="submit" value="Enviar" />
+        <div class="conta">
+          <p>Ainda não tem conta?</p>
+          <p id="cadastrar">Cadastre-se</p>
+        </div>
+      </div>
     </form>
-</body>
-<script src="./script.js"></script>
+  </body>
+  <script src="./script.js"></script>
 </html>
